@@ -46,9 +46,9 @@
         <div class="footerNavHelp">
             <li class="menu-nav effect-4"><a href="mailto:lars.goedeke@gmx.de">Contact</a></li>
             <li>
-                <img class="social" src="img/instagram.png" />
-                <img class="social" src="img/facebook.png" />
-                <img class="social" src="img/twitter.png" />
+                <a href=""><img class="social" src="img/instagram.png" /></a>
+                <a href=""><img class="social" src="img/facebook.png" /></a>
+                <a href=""><img class="social" src="img/twitter.png" /></a>
             </li>
 
         </div>
