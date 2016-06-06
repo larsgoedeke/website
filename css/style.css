@@ -101,6 +101,37 @@ input {
     width: calc(100% - 200px);
 }
 
+
+/* ----- START PAGE ----- */
+#headerStart {
+	background: url(../img/start-bg-2.jpg) top center;
+	background-size: cover;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 290px;
+	padding-bottom: 50px;
+	min-height: 100vh;
+
+}
+
+/* ----- ABOUT PAGE ----- */
+
+#about {
+
+}
+
+/* ----- LOOKBOOK PAGE ----- */
+
+#lookbook {
+margin-right: -30px;
+margin-left: -30px;
+height: 100vh;
+}
+
+
+/* ----- GENERAL SETTINGS ----- */
+
+
 /* Button Red */
 
 .btn {
@@ -167,6 +198,7 @@ button {
 	text-align: center;
 }
 
+/* FOOTER */
 
 #footer { 
 	background: rgb(255,255,255);
@@ -241,42 +273,17 @@ button {
 
 
 @media screen and (max-width: 1024px) {
-	h1, .h1 {
-	font-size: 35px;
-}
 
-.footerNavHelp li {
-	display: block;
-	padding: 10px 0px;
-}
-.bull {
-	display: none;
-}
-
+	h1, .h1 { font-size: 35px; }
+	.footerNavHelp li { display: block; padding: 10px 0px; }
+	.bull { display: none; }
 }
 
 
 .white { color:#fff!important;}
 .white h3 { color: #fff!important; }
+.center { text-align: center; }
 
 
-
-
-
-/* ----- START PAGE ----- */
-#headerStart {
-	background: url(../img/start-bg-2.jpg) top center;
-	background-size: cover;
-	margin: 0 auto;
-	width: 100%;
-	padding-top: 290px;
-	padding-bottom: 50px;
-	min-height: 100vh;
-
-}
-
-
-
-.center {
-	text-align: center;
-}
+/* LOOKBOOK SLIDER */
+		

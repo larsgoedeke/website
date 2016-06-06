@@ -266,6 +266,7 @@ a.active {
   }
   .leftArea {
     width: 100%;
+    z-index: 10000;
     height: 40px;
     padding: 0px;
   }
